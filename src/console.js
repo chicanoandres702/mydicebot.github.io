@@ -33,7 +33,7 @@ var needOnlyApiKeySites = ['YoloDice','Crypto-Games','DuckDice','WinDice'];
 var needSteemActiveKeySites = ['EpicDice','KryptoGames'];
 var needSimulatorActiveKeySites = ['Simulator'];
 
-var nums = 0, currency = 'btc', base = 0, isloop = false, iswin = false;
+var nums = 0, currency = 'usdc', base = 0, isloop = false, iswin = false;
 var toggleDonate = false;
 var code;
 var startTime = new Date(), settime, difftime = 0, intervalBetTime = 0;
@@ -41,7 +41,7 @@ var basebet = 0.00000001, nextbet = 0.00000001, chance = 90, bethigh = false;
 var previousbet = 0, win = false, currentprofit = 0, balance = 0, bets = 0, wins = 0, losses = 0, profit = 0, currentstreak = 0, currentroll = 0 ,wagered = 0, totalprofit = 0, donateprofit =0;
 var maxwinstreak = 0, maxlossstreak = 0, maxwinstreakamount = 0, maxlossstreakamount = 0, maxstreakamount = 0, minstreakamount = 0, maxbetamount = 0 ;
 var lastbet = {id:0,chance:chance, date:'',roll:49.5,amount:nextbet,nonce:1000,serverhash:'mydice',serverseed:'mydice',clientseed:'',profit:profit,uid:1000,high:bethigh};
-var currencies = ['BTC', 'Doge', 'LTC', 'ETH'];
+var currencies = ['BTC', 'Doge', 'LTC', 'ETH', 'USDC', 'USDT'];
 var stop = false;
 var req = {};
 var sleepTime = 0;
